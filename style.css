@@ -1,0 +1,82 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
+
+.container {
+    width: 414px; /* Viewport lógica do iPhone 11 */
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background-color: #f0f0f0;
+}
+
+.logo img {
+    width: 40px; 
+    height: auto; /* Mantém a proporção da imagem */
+    max-width: 100%; /* Garantindo que a imagem não ultrapasse o tamanho maximo do contêiner   */
+    max-height: 100%; /* Garantindo que a imagem não ultrapasse o tamanho maximo do contêiner  */
+}
+
+.icons {
+    display: flex;
+    gap: 8px;
+}
+
+/* Mensagens */
+.mensagens {
+    padding: 16px;
+    background: #e3d6ff;
+}
+
+.mensagem {
+    background: #d3c1ff;
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+
+/* Aulas */
+.main {
+    padding: 16px;
+    background: #c8f7c5;
+}
+
+.aula {
+    background: #a3e4a3;
+    padding: 12px;
+    margin-top: 8px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aula-icons {
+    display: flex;
+    gap: 8px;
+}
+
+/* Notícias */
+.noticias {
+    padding: 16px;
+    background: #ffc7c7;
+}
